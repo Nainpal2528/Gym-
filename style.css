@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+   
+}
+
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+ 
+
+.nav-link{
+    font-size: 24px;
+    font-family: 'Kanit', sans-serif;
+}
+.nvbrnd{
+    font-size: 27px;
+    font-family: 'Abril Fatface', cursive;
+}
+.nvbrnd:hover{
+    font-size: 30px;
+    border: 1px solid rgb(221, 163, 3);
+    
+}
+.nav-link::after{
+content: "";
+width: 0%;
+height: 2px;
+background: rgb(204, 191, 10);
+display: block;
+margin: auto;
+}
+
+.nav-link:hover::after{
+    width: 95%;
+}
+.nav-brand::after{
+    font-size: 25px;
+}
+.nav-brand:hover::after{
+    font-size: 45px;
+}
+
+
+
+
+
+
